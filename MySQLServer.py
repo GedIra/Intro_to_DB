@@ -4,7 +4,7 @@ import mysql.connector
 
 mydb = mysql.connector.connect(
       host = 'localhost',
-      user = 'Ged',
+      user = 'Ged', 
       password = 'Mypassword'
 )
 
@@ -22,6 +22,7 @@ else:
   print("Database 'alx_book_store' created successfully!")
 
 finally:
+  #Cutting the Database connection
   mydb.close
   mycursor.close
 
