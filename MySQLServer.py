@@ -22,7 +22,7 @@ else:
   print("Database 'alx_book_store' created successfully!")
 
 finally:
-  #Cutting the Database connection
+  #Cutting the Database connec
   mydb.close
   mycursor.close
 
